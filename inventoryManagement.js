@@ -11,9 +11,9 @@ function logFirstProduct() {
 }
 
 // Function to add a new product
-function addProduct(productName) {
-    products.push(productName);
-    console.log(`Product "${productName}" added successfully!`);
+function addProduct(Laptop) {
+    products.push(Laptop);
+    console.log(`Product "${Laptop}" added successfully!`);
     console.log("Updated products:", products);
 }
 
